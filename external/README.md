@@ -1,0 +1,2 @@
+# External Molecular Descriptors
+This directory contains the code for generating external molecular descriptors (features not introduced in the preprint). Unless explicitly stated otherwise, the majority of the code here is reproduced from other repositories. 

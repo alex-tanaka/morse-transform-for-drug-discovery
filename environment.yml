@@ -1,0 +1,33 @@
+name: morse_cadd_env
+channels:
+ - conda-forge
+ - nvidia
+ - pytorch
+ - defaults
+dependencies:
+ - python==3.9.21
+ - mendeleev
+ - rdkit
+ - gudhi==3.8.0
+ - dask
+ - scikit-learn
+ - pytorch
+ - pytorch-cuda==11.8
+ - numpy<2.0
+ - plotly
+ - fastparquet
+ - pandas
+ - pyarrow
+ - matplotlib
+ - joblib
+ - tqdm
+ - scipy
+ - lightgbm
+ - bayesian-optimization
+ - tensorboardX==2.6.2.2
+ - nbformat>=4.2.0
+ - ipykernel
+ - pip
+ - pip:
+   - ray==2.7.0
+   - HEBO>=0.2.0
