@@ -1,7 +1,7 @@
 # Leveraging Morse Theory and Machine Learning for Computer-Aided Drug Discovery
 This repository contains the underlying code for the preprint
 > Tanaka, A. M., Asaad, A. T., Cooper, R. I., & Nanda, V. (2025).
-> A Morse Transform for Drug Discovery. arXiv e-prints, arXiv:2503.04507.
+> A Morse Transform for Drug Discovery. arXiv e-prints, [arXiv:2503.04507](https://arxiv.org/abs/2503.04507).
 
 
 ## Prerequisites
@@ -25,7 +25,7 @@ Please note that the commands in this repository are written for a Linux-based t
     conda activate morse_cadd_env
     ```
 
-3. Launch the Jupyter Notebook tutorials and select the `morse_cadd_env` as the kernel.
+3. Launch the Jupyter Notebook tutorials and select the `morse_cadd_env` environment as the kernel.
 
 
 ## Tutorials
@@ -40,7 +40,7 @@ The tutorials are in the form of Jupyter Notebooks and can be found in the `note
 
 ## Pipeline
 <p align="center">
-  <img src="paper_pipeline_diagram.png" alt="A figure displaying the pipeline of the Morse feature vector generation and classification." width="500"/>
+  <img src="assets/paper_pipeline_diagram.png" alt="A figure displaying the pipeline of the Morse feature vector generation and classification." width="500"/>
 </p>
 
 
