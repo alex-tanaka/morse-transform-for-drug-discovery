@@ -37,6 +37,7 @@ The tutorials are in the form of Jupyter Notebooks and can be found in the `note
 
 - Notebook III: Classifying Morse Features
 
+View the notebooks on [nbviewer](https://nbviewer.org/github/alex-tanaka/morse-transform-for-drug-discovery/tree/main/notebooks/) for interactive plots.
 
 ## Pipeline
 <p align="center">
