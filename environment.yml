@@ -7,7 +7,7 @@ channels:
 dependencies:
  - python==3.9.21
  - mendeleev
- - rdkit
+ - rdkit==2025.03.5
  - gudhi==3.8.0
  - dask
  - scikit-learn
