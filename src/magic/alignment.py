@@ -41,7 +41,7 @@ class DataAlignment:
             A data frame augmented by the rotated copies of the point clouds
         """
 
-        self.list_df = list_df#
+        self.list_df = list_df
 
         # Generate the list of aligned dataframes
         aligned_list_df = [self._alignSingle(df) for df in list_df]
@@ -70,13 +70,30 @@ class DataAlignment:
         # Extract the point cloud
         X = df[ ["x", "y", "z"] ].to_numpy()
 
-        # Rotate the point cloud axes to PCA axes.
-        pca = PCA()
-        pca_X = pca.fit_transform(X)
+        # Set the random state and perform the PCA
+        pca = PCA(random_state=2024)
+        pca.fit(X)
+
+        # Find the determinant of the matrix of eigenvectors 
+        # (also called the loadings matrix or principal axes matrix)
+        determinant = np.linalg.det(pca.components_)
+
+        # Enforce that the matrix is a proper rotation.
+        # Note that for scikit-learn PCA, each row of the matrix 
+        # is an eigenvector (not each column)
+        if determinant < 0:
+            # Flip the sign of the eigenvector with the
+            # lowest eigenvalue
+            pca.components_[-1, :] *= -1
+        else:
+            pass
+
+        # Align the point cloud with the PCA axes
+        # via a proper rotation
+        pca_X = pca.transform(X)
 
         # Calculate skew of the point cloud along the PCA axes.
         paxis_skews = skew(pca_X, axis=0)
-        # print(paxis_skews)
 
         # Find the rotation matrix that transforms the rotated point cloud 
         # such that there is positive skew along the first two principal axes.
@@ -86,15 +103,12 @@ class DataAlignment:
             R = np.diag([-1, 1, -1]) # y-axis pi-rotation
         elif (paxis_skews[0] >= 0) and (paxis_skews[1] < 0):
             R = np.diag([1, -1, -1]) # x-axis pi-rotation
-        # elif (paxis_skews[0] >= 0) and (paxis_skews[1] >= 0):
-        #     R = np.diag([1, 1, 1]) # identity
         else:
             R = np.diag([1, 1, 1]) # identity
 
         # Orient the rotated point cloud such that there is positive skew along 
         # the first two principal axes.
         aligned_X = pca_X @ R.T
-        # print(aligned_X, '\n')
         
         # Create a copy of the original data frame with an aligned point cloud
         aligned_df = df.copy()
