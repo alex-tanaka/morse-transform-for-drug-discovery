@@ -4,9 +4,17 @@ This repository contains the underlying code for the preprint
 > A Morse Transform for Drug Discovery. arXiv e-prints, [arXiv:2503.04507](https://arxiv.org/abs/2503.04507).
 
 
-## Prerequisites
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+## Reference platform
+This code was developed and tested on the following operating systems:
+
+- CentOS Linux 8 (Core) and AlmaLinux 9
+
+The code is likely, but not guaranteed, to be compatible with any RHEL 8- or 9-based Linux distribution. Compatability with macOS or Windows (WSL 2 is recommended) is unverified and unsupported. 
+
+
+## Software prerequisites
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (version control)
+- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) (environment management)
 
 Please note that the commands in this repository are written for a Linux-based terminal.
 
