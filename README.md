@@ -75,8 +75,12 @@ A diagrammatic overview of our virtual screening pipeline:
 3. _Classification_. We train a LightGBM gradient-boosted decision tree on Morse feature vectors to perform a binary classification task to rank molecules on how likely they are to bind to specific protein targets.
 
 
+## Acknowledgements
+This work would not be possible without the incredible work of people around the globe dedicated to developing publicly available codebases and libraries. We used the [GUDHI](https://github.com/GUDHI/gudhi-devel) library for computational topology; the [RGMolSA](https://github.com/RPirie96/RGMolSA), [KQMolSA](https://github.com/RPirie96/KQMolSA) and [WHALES](https://github.com/grisoniFr/scaffold_hopping_whales) codebases for molecular descriptors; the [RDKit](https://github.com/rdkit/rdkit) and [mendeleev](https://github.com/lmmentel/mendeleev) library for extracting chemical properties; the [scikit-learn](https://github.com/scikit-learn/scikit-learn) module and [LightGBM](https://github.com/microsoft/LightGBM) framework for machine learning; the [Ray](https://github.com/ray-project/ray) framework for hyperparameter tuning; and throughout we use the [matplotlib](https://github.com/matplotlib/matplotlib) plotting library, [NumPy](https://github.com/numpy/numpy) and [SciPy](https://github.com/scipy/scipy) scientific computing packages, [pandas](https://github.com/pandas-dev/pandas) data analysis package and [plotly](https://github.com/plotly/plotly.py) graphing library. Thank you!
+
+
 ## Citation
-If you made use of this repository during your research, then please cite the following preprint
+If you made use of this repository during your research, then please consider citing the following preprint
 ```
 @misc{morsetransformdrugdiscovery2025,
       title={A Morse Transform for Drug Discovery}, 
