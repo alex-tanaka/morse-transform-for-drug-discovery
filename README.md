@@ -1,4 +1,8 @@
 # Leveraging Morse Theory and Machine Learning for Computer-Aided Drug Discovery
+<p align="center">
+  <img src="assets/morse.gif" alt="An animated loopoing gif displaying the MORSE procedure." width="600" loop=infinite/>
+</p>
+
 This repository contains the underlying code for the preprint
 > Tanaka, A. M., Asaad, A. T., Cooper, R. I., & Nanda, V. (2025).
 > A Morse Transform for Drug Discovery. arXiv e-prints, [arXiv:2503.04507](https://arxiv.org/abs/2503.04507).
@@ -51,7 +55,6 @@ View the notebooks on [nbviewer](https://nbviewer.org/github/alex-tanaka/morse-t
 <p align="center">
   <img src="assets/paper_pipeline_diagram.png" alt="A figure displaying the pipeline of the Morse feature vector generation and classification." width="500"/>
 </p>
-
 
 A diagrammatic overview of our virtual screening pipeline:
 
