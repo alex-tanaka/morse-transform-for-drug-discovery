@@ -1,6 +1,6 @@
 # Leveraging Morse Theory and Machine Learning for Computer-Aided Drug Discovery
 <p align="center">
-  <img src="assets/morse.gif" alt="An animated loopoing gif displaying the MORSE procedure." width="600" loop=infinite/>
+  <img src="assets/morse.png" alt="An animated looping gif displaying the MORSE procedure." width="600" loop=infinite/>
 </p>
 
 This repository contains the underlying code for the preprint
