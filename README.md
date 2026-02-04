@@ -9,7 +9,7 @@ This repository contains the underlying code for the preprint
 
 
 ## Reference platform
-This code was developed and tested on the following operating systems:
+This codebase was developed and tested on the following operating systems:
 
 - CentOS Linux 8 (Core) and AlmaLinux 9
 
@@ -24,7 +24,7 @@ Please note that the commands in this repository are written for a Linux-based t
 
 
 ## Getting started
-1. Clone the repository:
+1. Clone the repository.
     ```
     git clone https://github.com/alex-tanaka/morse-transform-for-drug-discovery.git
     cd morse-transform-for-drug-discovery
@@ -76,7 +76,7 @@ A diagrammatic overview of our virtual screening pipeline:
 
 
 ## Acknowledgements
-This work would not be possible without the incredible work of people around the globe dedicated to developing publicly available codebases and libraries. We used the [GUDHI](https://github.com/GUDHI/gudhi-devel) library for computational topology; the [RGMolSA](https://github.com/RPirie96/RGMolSA), [KQMolSA](https://github.com/RPirie96/KQMolSA) and [WHALES](https://github.com/grisoniFr/scaffold_hopping_whales) codebases for molecular descriptors; the [RDKit](https://github.com/rdkit/rdkit) and [mendeleev](https://github.com/lmmentel/mendeleev) library for extracting chemical properties; the [scikit-learn](https://github.com/scikit-learn/scikit-learn) module and [LightGBM](https://github.com/microsoft/LightGBM) framework for machine learning; the [Ray](https://github.com/ray-project/ray) framework for hyperparameter tuning; and throughout we use the [matplotlib](https://github.com/matplotlib/matplotlib) plotting library, [NumPy](https://github.com/numpy/numpy) and [SciPy](https://github.com/scipy/scipy) scientific computing packages, [pandas](https://github.com/pandas-dev/pandas) data analysis package and [plotly](https://github.com/plotly/plotly.py) graphing library. Thank you!
+This work would not be possible without the incredible efforts of people around the globe dedicated to developing publicly available codebases and libraries. We used the [GUDHI](https://github.com/GUDHI/gudhi-devel) library for computational topology; the [RGMolSA](https://github.com/RPirie96/RGMolSA), [KQMolSA](https://github.com/RPirie96/KQMolSA) and [WHALES](https://github.com/grisoniFr/scaffold_hopping_whales) codebases for molecular descriptors; the [RDKit](https://github.com/rdkit/rdkit) and [mendeleev](https://github.com/lmmentel/mendeleev) libraries for extracting chemical properties; the [scikit-learn](https://github.com/scikit-learn/scikit-learn) module and [LightGBM](https://github.com/microsoft/LightGBM) framework for machine learning; the [Ray](https://github.com/ray-project/ray) framework for hyperparameter tuning; and throughout we use the [matplotlib](https://github.com/matplotlib/matplotlib) plotting library, [NumPy](https://github.com/numpy/numpy) and [SciPy](https://github.com/scipy/scipy) scientific computing packages, [pandas](https://github.com/pandas-dev/pandas) data analysis package and [plotly](https://github.com/plotly/plotly.py) graphing library. Thank you!
 
 
 ## Citation
