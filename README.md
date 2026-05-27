@@ -1,4 +1,4 @@
-# Leveraging Morse Theory and Machine Learning for Computer-Aided Drug Discovery
+# The Morse Transform for Discrete Shape Analysis
 <p align="center">
   <img src="assets/morse.png" alt="An animated looping gif displaying the MORSE procedure." width="600" loop=infinite/>
 </p>
