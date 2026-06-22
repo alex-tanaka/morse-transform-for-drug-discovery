@@ -4,8 +4,8 @@
 </p>
 
 This repository contains the underlying code for the preprint
-> Tanaka, A. M., Asaad, A. T., Cooper, R. I., & Nanda, V. (2025).
-> A Morse Transform for Drug Discovery. arXiv e-prints, [arXiv:2503.04507](https://arxiv.org/abs/2503.04507).
+> Tanaka, A. M., Asaad, A. T., Cooper, R. I., & Nanda, V.
+> The Morse Transform for Discrete Shape Analysis. arXiv e-prints, [arXiv:2503.04507](https://arxiv.org/abs/2503.04507).
 
 
 ## Reference platform
@@ -82,10 +82,10 @@ This work would not be possible without the incredible efforts of people around 
 ## Citation
 If you made use of this repository during your research, then please consider citing the following preprint
 ```
-@misc{morsetransformdrugdiscovery2025,
-      title={A Morse Transform for Drug Discovery}, 
+@misc{morse_transform,
+      title={The Morse Transform for Discrete Shape Analysis}, 
       author={Alexander M. Tanaka and Aras T. Asaad and Richard Cooper and Vidit Nanda},
-      year={2025},
+      year={2026},
       eprint={2503.04507},
       archivePrefix={arXiv},
       primaryClass={q-bio.QM},
